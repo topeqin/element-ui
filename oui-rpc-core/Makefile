@@ -21,7 +21,7 @@ define Package/oui-rpc-core
   TITLE:=Base OUI RPC calls
   DEPENDS:=+rpcd +rpcd-mod-iwinfo +rpcd-mod-file +rpcd-mod-rpcsys +uhttpd \
 		+uhttpd-mod-ubus +lua +libubox-lua +libubus-lua \
-		+libuci-lua +lua-cjson +liblua +kmod-oui-bwm
+		+libuci-lua +lua-cjson +liblua
   URL:=https://github.com/zhaojh329/oui
 endef
 
