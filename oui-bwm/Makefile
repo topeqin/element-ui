@@ -36,4 +36,4 @@ define Build/Compile
 		modules
 endef
 
-$(eval $(call KernelPackage,oui-bwm))
+#$(eval $(call KernelPackage,oui-bwm))
